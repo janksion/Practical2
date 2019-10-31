@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
     }
-//asdasdasdasdasdasd
+    
     private fun updateNickname (view: View) {
         val editText = nickname_edit
         val doneButton =done_button
